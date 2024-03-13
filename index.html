@@ -5,35 +5,46 @@
         <title> OS Simulation </title>
         <!--used for name shown in webline or sumn-->
     </head>
-    <body style="background-color:beige;">
-        <h1 style="color: indianred;">Select your Simulation </h1>
+    <body style="background-color:rgb(20, 20, 20);">
+
+
+        <h1 style="color:antiquewhite;">Select your Simulation </h1>
         <!--Should be the largest heading so h1 FURTHER find if can change font or colour-->
-        <h5 style="text-align: right;color: maroon;">BY 22BCP222(MahimnaDave)... what styleadd</h5>
-        
-        <h3 title="don't touch" style="color:chocolate ;">1.Roundrobin</h3>
-        <!--first topic it will have name nxtln simulation nxtln info nxtln image nxtln refsite ig  -->
-        <p title="info tooltip" style="color:peru;font-family:Arial, Helvetica, sans-serif ;">info on Round robin process scheduling algorithm</p>
-        <button style="color: blueviolet;background-color:darkgray;"; onclick="window.open('https://tirthpshah.github.io/OS-Simulator','_blank')" >Round Robin</button>
-        <a href="https://www.nbcnews.com/nbc-out/out-pop-culture/robin-explores-bisexuality-new-batman-comic-rcna1647" target="_blank">round robin img</a>
-        <br>
-        <img src="C:\MSD\college work\images&stuff\robin bisexual.jpg" alt=" ROund RObIn" width="400" height="300">
-        
-        <hr>
-        <h3 title="tooltip"style="color:chocolate ;">2.Banker's Algorithm for Deadlock</h3>
-        <!--Second topic same-->
-        <p title="info tooltip"style="color:peru;font-family:Arial, Helvetica, sans-serif ;">info banker's algorithm for deadlock</p>
+        <h5 style="text-align: right;color:beige;">BY 22BCP222,22BCP223,22BCP228,22BCP230,22BCP233 </h5>
         
 
-        <hr>
-        <h3 title="tooltip"style="color:chocolate ;">3.SCAN Disc scheduling Algorithm</h3>
-        <!--third topic same-->
-        <p title="info tooltip"style="color:peru;font-family:Arial, Helvetica, sans-serif ;">info Scan disk scheduling algorithm</p>
-       
-        <hr>
-        <h3 title="tooltip"style="color:chocolate ;">4.Most Recently Used page replacement Algorithm</h3>
-        <!--fourth topic same-->
-        <p title="info tooltip"style="color:peru;font-family:Arial, Helvetica, sans-serif ;">info most recently used page replacement</p>
+
+        <h3 title="Round-robin scheduling algorithm is used in CPU scheduling, network routing, load balancing, and disk scheduling for fair allocation of resources among multiple processes or tasks." style="color:azure ;">1.Round-Robin Scheduling Algorithm</h3>
+        <!--first topic it will have name nxtln simulation nxtln info nxtln image nxtln refsite ig  -->
+        <p title="Info about How Round-Robin Scheduling algorithm works" style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">Round-robin scheduling is a preemptive CPU scheduling algorithm that allocates CPU time to each process in equal time slices, typically referred to as "quantum" or "time slice." When a process exhausts its allocated time quantum, it is preempted, and the CPU is assigned to the next process in the ready queue. This continues until all processes have been executed. Round-robin scheduling ensures fairness by providing each process with an equal share of CPU time, making it suitable for time-sharing systems and environments with interactive applications. However, it may result in poor performance for long-running processes or those with varying computational requirements due to frequent context switches.</p>
+        <img src="C:\MSD\college work\images&stuff\Round-Robin-Scheduling.jpg" alt=" ROund RObIn" width="400" height="400">
+        <!--a href="https://www.nbcnews.com/nbc-out/out-pop-culture/robin-explores-bisexuality-new-batman-comic-rcna1647" target="_blank">round robin img</a-->
+        <br>
+        <button style="color:black;background-color:cadetblue;"; onclick="window.open('https://tirthpshah.github.io/OS-Simulator','_blank')" >Press for Round-Robin Simulation</button>
         
+
+
+        <hr>
+        <h3 title="The Banker's Algorithm is used in operating systems and resource allocation systems to prevent deadlocks, commonly in computer systems and concurrent programming environments."style="color:azure ;">2.Banker's Algorithm for Deadlock</h3>
+        <!--Second topic same-->
+        <p title="Info about How Banker's Algorithm for Deadlock works"style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">The Banker's Algorithm prevents deadlocks by analyzing resource requests dynamically and only granting them if the system remains in a safe state, where deadlock cannot occur. It tracks available resources and process maximums, ensuring requests can be met without risking deadlock. If a request threatens system stability, it's deferred until resources are available, maintaining system safety.</p>
+        <img src="C:\MSD\college work\images&stuff\bankers-algorithm-java.png" alt=" Banker's Algorithm" width="400" height="400">
+
+
+
+        <hr>
+        <h3 title="The SCAN disk scheduling algorithm is used in operating systems to optimize disk access by minimizing disk arm movement. It ensures fair and efficient handling of disk I/O requests, reducing access time and enhancing disk performance."style="color:azure ;">3.SCAN Disc scheduling Algorithm</h3>
+        <!--third topic same-->
+        <p title="Info about How SCAN Disk Scheduling Algo works"style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">The SCAN disk scheduling algorithm, also known as the elevator algorithm, is used in operating systems to optimize disk access. It works by moving the disk arm in one direction until it reaches the end of the disk, serving all requests along the way. Then, it reverses direction and serves requests in the opposite direction until it reaches the other end of the disk. This approach minimizes disk arm movement, reducing access time and improving disk performance.</p>
+        <img src="C:\MSD\college work\images&stuff\SCAN-Disk-Scheduling-Algorithm-Problem-01temp.jpg" alt="SCAN Disc Scheduling Algorithm" width="400" height="400">
+
+
+        <hr>
+        <h3 title="tooltip"style="color:azure ;">4.Most Recently Used page replacement Algorithm</h3>
+        <!--fourth topic same-->
+        <p title="info tooltip"style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">info most recently used page replacement</p>
+        
+
 
         <hr>
         <hr>
