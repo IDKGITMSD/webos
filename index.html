@@ -3,52 +3,49 @@
 <html lang="en-IN">
     <head>
         <title> OS Simulation </title>
-        <!--used for name shown in webline or sumn-->
+        <link rel="stylesheet" href="Base.css">
     </head>
-    <body style="background-color:rgb(20, 20, 20);">
+    <body >
 
 
-        <h1 style="color:antiquewhite;">Select your Simulation </h1>
-        <!--Should be the largest heading so h1 FURTHER find if can change font or colour-->
-        <h5 style="text-align: right;color:beige;">BY 22BCP222,22BCP223,22BCP228,22BCP230,22BCP233 </h5>
+        <h1 >Select your Simulation </h1>
+        <h5>BY 22BCP222,22BCP223,22BCP228,22BCP230,22BCP233 </h5>
         
-
         <hr>
-        <h3 title="Round-robin scheduling algorithm is used in CPU scheduling, network routing, load balancing, and disk scheduling for fair allocation of resources among multiple processes or tasks." style="color:azure ;">1.Round-Robin Scheduling Algorithm</h3>
+        <h3 title="Round-robin scheduling algorithm is used in CPU scheduling, network routing, load balancing, and disk scheduling for fair allocation of resources among multiple processes or tasks." >1.Round-Robin Scheduling Algorithm</h3>
         <!--first topic it will have name nxtln simulation nxtln info nxtln image nxtln refsite ig  -->
-        <p title="Info about How Round-Robin Scheduling algorithm works" style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">Round-robin scheduling is a preemptive CPU scheduling algorithm that allocates CPU time to processes in equal time slices, known as "quantum." When a process finishes its quantum, it's preempted, and the CPU switches to the next process in the queue. This ensures fairness among processes, making it ideal for time-sharing systems and interactive environments. However, it may cause inefficiencies for long-running or variable workload processes due to frequent context switches.</p>
+        <p title="Info about How Round-Robin Scheduling algorithm works" >Round-robin scheduling is a preemptive CPU scheduling algorithm that allocates CPU time to processes in equal time slices, known as "quantum." When a process finishes its quantum, it's preempted, and the CPU switches to the next process in the queue. This ensures fairness among processes, making it ideal for time-sharing systems and interactive environments. However, it may cause inefficiencies for long-running or variable workload processes due to frequent context switches.</p>
         <img src="Round-Robin-Scheduling.jpg" alt=" ROund RObIn" width="400" height="400">
-        <!--a href="https://www.nbcnews.com/nbc-out/out-pop-culture/robin-explores-bisexuality-new-batman-comic-rcna1647" target="_blank">round robin img</a-->
         <br>
-        <button style="color:black;background-color:cadetblue;"; onclick="window.open('https://tirthpshah.github.io/OS-Simulator','_blank')" >Press for Round-Robin Simulation</button>
+        <button onclick="window.open('https://tirthpshah.github.io/OS-Simulator','_blank')" >Press for Round-Robin Simulation</button>
         
 
 
         <hr>
-        <h3 title="The Banker's Algorithm is used in operating systems and resource allocation systems to prevent deadlocks, commonly in computer systems and concurrent programming environments."style="color:azure ;">2.Banker's Algorithm for Deadlock</h3>
+        <h3 title="The Banker's Algorithm is used in operating systems and resource allocation systems to prevent deadlocks, commonly in computer systems and concurrent programming environments.">2.Banker's Algorithm for Deadlock</h3>
         <!--Second topic same-->
-        <p title="Info about How Banker's Algorithm for Deadlock works"style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">The Banker's Algorithm prevents deadlocks by analyzing resource requests dynamically and only granting them if the system remains in a safe state, where deadlock cannot occur. It tracks available resources and process maximums, ensuring requests can be met without risking deadlock. If a request threatens system stability, it's deferred until resources are available, maintaining system safety.</p>
+        <p title="Info about How Banker's Algorithm for Deadlock works">The Banker's Algorithm prevents deadlocks by analyzing resource requests dynamically and only granting them if the system remains in a safe state, where deadlock cannot occur. It tracks available resources and process maximums, ensuring requests can be met without risking deadlock. If a request threatens system stability, it's deferred until resources are available, maintaining system safety.</p>
         <img src="bankers-algorithm-java.png" alt=" Banker's Algorithm" width="400" height="400">
 
 
 
         <hr>
-        <h3 title="The SCAN disk scheduling algorithm is used in operating systems to optimize disk access by minimizing disk arm movement. It ensures fair and efficient handling of disk I/O requests, reducing access time and enhancing disk performance."style="color:azure ;">3.SCAN Disc scheduling Algorithm</h3>
+        <h3 title="The SCAN disk scheduling algorithm is used in operating systems to optimize disk access by minimizing disk arm movement. It ensures fair and efficient handling of disk I/O requests, reducing access time and enhancing disk performance.">3.SCAN Disc scheduling Algorithm</h3>
         <!--third topic same-->
-        <p title="Info about How SCAN Disk Scheduling Algo works"style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">The SCAN disk scheduling algorithm, also known as the elevator algorithm, is used in operating systems to optimize disk access. It works by moving the disk arm in one direction until it reaches the end of the disk, serving all requests along the way. Then, it reverses direction and serves requests in the opposite direction until it reaches the other end of the disk. This approach minimizes disk arm movement, reducing access time and improving disk performance.</p>
+        <p title="Info about How SCAN Disk Scheduling Algo works">The SCAN disk scheduling algorithm, also known as the elevator algorithm, is used in operating systems to optimize disk access. It works by moving the disk arm in one direction until it reaches the end of the disk, serving all requests along the way. Then, it reverses direction and serves requests in the opposite direction until it reaches the other end of the disk. This approach minimizes disk arm movement, reducing access time and improving disk performance.</p>
         <img src="SCAN-Disk-Scheduling-Algorithm-Problem-01temp.jpg" alt="SCAN Disc Scheduling Algorithm" width="400" height="400">
 
 
         <hr>
-        <h3 title="The Most Recently Used (MRU) page replacement algorithm is commonly used in cache management systems to prioritize keeping the most recently accessed pages or data items in the cache."style="color:azure ;">4.Most Recently Used page replacement Algorithm</h3>
+        <h3 title="The Most Recently Used (MRU) page replacement algorithm is commonly used in cache management systems to prioritize keeping the most recently accessed pages or data items in the cache.">4.Most Recently Used page replacement Algorithm</h3>
         <!--fourth topic same-->
-        <p title="Info about How MRU Algorithm works"style="color:cornsilk;font-family:Arial, Helvetica, sans-serif ;">The Most Recently Used (MRU) page replacement algorithm evicts the most recently accessed page from memory when needed, prioritizing retention of the most recently used pages. It selects the page accessed most recently for replacement during a page fault, optimizing performance by keeping frequently accessed pages in memory.</p>
+        <p title="Info about How MRU Algorithm works">The Most Recently Used (MRU) page replacement algorithm evicts the most recently accessed page from memory when needed, prioritizing retention of the most recently used pages. It selects the page accessed most recently for replacement during a page fault, optimizing performance by keeping frequently accessed pages in memory.</p>
         <img src="Flowchart-for-replacement-algorithmstemp.png" alt="Most Recently Used Page(MRU) Algorithm" width="400" height="400">
 
 
         <hr>
         <hr>
-        <h5 style="color:slateblue">End Additional content</h5>
+        <h5 style="color:slateblue;text-align: left;">End Additional content</h5>
         <p><a href="mailto:mahimnasd17@gmail.com">Send Feedback ?</a></p>
     
     </body>
