@@ -1,26 +1,74 @@
 
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 body{ 
     background-color:black;
 }
-
-h1{
+/*div{
     color:rgb(202, 171, 130);
+    font-family:Noto Sans;
+    width: 400px;
+    display: inline-block;
+}*/
+.container{
+    display:flex;
+}
+.title{
+    border-style:groove;
+    border-color: rgb(99, 0, 180);
+    
+} 
+   
+.text{
+    width:60%;
+    /*height: 400px;*/
+    /*background-color: rgba(224, 66, 224, 0.63);*/
+    margin-top: 10px;
+    font-family:Noto Sans ;
+}
+.image{
+    width:400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 40px;
+
+   /* background-color: #c4c4;*/
+
+}
+
+.button{
+    margin-top: 10px; /* Add top margin for spacing */
+    align-self: flex-end;
+}
+h1{
+    color:#C4C3D0;
+    font-family:Noto Sans ;
 }
 h3{
-    color:rgb(142, 243, 243) ;
+    color:#98FB98;
+    font-family:Noto Sans ;
 }
 p{
-    color:rgb(253, 232, 149);
-    font-family:Arial, Helvetica, sans-serif ;
+    color:#CCCCCC;
+    font-family:Noto Sans ;
 }
 h5{ 
     text-align: right;
-    color:rgb(255, 255, 185);
+    color:#CCCCCC;
+    font-family:Noto Sans ;
 }
 button{
     color:black;
-    background-color:cadetblue;
+    background-color: rgb(101, 72, 124);
+    padding: 10px 20px;
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s;
+    font-family:Noto Sans;
+}
+.button:hover{
+    background-color: rgb(43, 144, 226);
 }
 img{
     border-radius: 5%;
@@ -28,4 +76,5 @@ img{
 #Extra{
     color:slateblue;
     text-align: left;
+    font-family:Noto Sans ;
 }
